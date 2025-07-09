@@ -17,7 +17,7 @@ A arquitetura **MVVM** foi adotada com o objetivo de separar responsabilidades d
   Arquivo: `TaskListViewModel.swift`
 
 - **Views:** compostas por componentes SwiftUI, apresentam os dados da ViewModel ao usuário.  
-  Arquivos: `TaskListView.swift`, `AddEditTaskView.swift`, `TaskDetailView.swift`
+  Arquivos: `TaskListView.swift`, `AddTaskView.swift`, `TaskDetailView.swift`
 
 ## 3. Injeção de Dependência
 
