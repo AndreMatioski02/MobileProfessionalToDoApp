@@ -25,6 +25,7 @@ Foi implementada a **Injeção de Dependência** para desacoplar a ViewModel dos
 
 ```swift
 init(taskService: TaskServiceProtocol = TaskService.shared)
+```
 
 ## 4. Design Patterns Aplicados
 
