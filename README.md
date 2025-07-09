@@ -24,7 +24,7 @@ A arquitetura **MVVM** foi adotada com o objetivo de separar responsabilidades d
 Foi implementada a **Injeção de Dependência** para desacoplar a ViewModel dos serviços de dados, promovendo modularidade e facilitando testes unitários. A ViewModel recebe uma instância de `TaskServiceProtocol` via construtor:
 
 ```swift
-init(taskService: TaskServiceProtocol = TaskService.shared)
+init(taskService: TaskServiceProtocol = ServiceLocator.shared.provideTaskService())
 ```
 
 ## 4. Design Patterns Aplicados
