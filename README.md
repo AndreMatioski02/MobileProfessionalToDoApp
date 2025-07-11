@@ -82,3 +82,8 @@ cancellable = viewModel.$tasks.sink { tasks in
 }
 viewModel.addTask(...)
 wait(for: [expectation], timeout: 1.0)
+```
+
+Link da gravação: https://pucpredu-my.sharepoint.com/:v:/g/personal/andre_matioski_pucpr_edu_br/EWAI8E34_yNGsvw05riu3GMB6pq8-uBfPNm9_pKO2kTwpg?e=CnyTCm
+
+
